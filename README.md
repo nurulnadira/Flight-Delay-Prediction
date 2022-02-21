@@ -34,7 +34,7 @@ Next, the irrelevant and unnecessary column were then removed to avoid overburde
 
 ![Before removing outliers](https://github.com/nurulnadira/flightdelayprediction/blob/9cc5e08d8111cec18d589d2cc56a7ca38ec2a19f/Outlier%20Detection%201.png)
 
-#
+![After outliers removal](https://github.com/nurulnadira/flightdelayprediction/blob/fce51a7d56139db06147e14bfa2ed75dfed169d4/Outlier%20Detection%202.png)
 
 ![This is an image](https://github.com/nurulnadira/flightdelayprediction/blob/17e218828e9c42c063d5e29bd8b506936c464f99/ROC.png)
 
