@@ -45,3 +45,5 @@ Next, the irrelevant and unnecessary column were then removed to avoid overburde
 
 To improve model results, it is important to determine the correlation between each parameter. Correlation matrix were computed to determine the correlation between each parameter and delays. Since the data contains both continuous and categorical variables, the correlation matrix was created by using correlation ratio from Dython’s library in Python:
 
+![Correlation Matrix](https://github.com/nurulnadira/flightdelayprediction/blob/ffe2958d9528f8c40121cd10f1f716affd6c2c7a/Correlation%20Matrix.png)
+
