@@ -32,7 +32,7 @@ The missing values for ‘CRS Elapsed Time’ was also replaced by calculating m
 
 Next, the irrelevant and unnecessary column were then removed to avoid overburden the dataset and the remaining rows with missing values were drop from the dataset. Lastly, after the outliers more than 2 standard deviation were removed, the datasets were normalized and categorical data were transformed to numeric data.
 
-![Before removing outliers] (Outlier Detection 1.png)
+![Before removing outliers](Outlier Detection 1.png)
 
 #
 
