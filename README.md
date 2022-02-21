@@ -1,5 +1,4 @@
-# flightdelayprediction
-US Flight Delay Prediction
+# US Flight Delay Prediction
 
 Analysed 21 years worth of United States (US) flight data from 1987 onwards to predict arrival delays and provide
 managerial recommendations to prevent future flight delays. Successfully performed data cleansing, feature
