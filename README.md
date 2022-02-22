@@ -47,3 +47,30 @@ To improve model results, it is important to determine the correlation between e
 
 ![Correlation Matrix](https://github.com/nurulnadira/flightdelayprediction/blob/ffe2958d9528f8c40121cd10f1f716affd6c2c7a/Correlation%20Matrix.png)
 
+Based on the correlation matrix, there is a relationship between arrival delays and departure time, arrival time, unique carrier, taxi in, taxi out, carrier delay, weather delay, NAS Delay, security delay and late aircraft delay. To accurately estimate the prediction, the results will be used as the predictors. 
+
+# 3. Prediction Models
+
+# a. Logistic Regression
+
+The logistic regression was run and confusion with the abovementioned features. The model indicates that the test accuracy is 68.50%. Based on the confusion matrix below, the model has a 0.60 and 0.71 precision to predict whether the flights will not be delayed or delayed respectively.
+
+# b. Decision tree
+
+The decision tree constructs classification models in the form of a tree structure and breaks down the data into smaller groups while simultaneously developing an associated decision tree. Using the same dataset and predictors as logistic regression, the model accuracy is 99.93%. Based on the confusion matrix below, the model has a 1.0 and 1.0 precision to predict whether the flights will not be delayed or delayed respectively. There is no ROC graph that can be computed for decision tree, however, the ROC AUC is very high, 0.9993381319717791.
+
+# c. Random Forest Regression
+
+Similarly, the data were fit into random forest regression. The random forest regression has accuracy of 98.31%. Based on the confusion matrix below, the model has a 1.0 and 0.97 precision to predict whether the flights will not be delayed or delayed respectively. There is no ROC graph that can be computed for decision tree, however, the ROC AUC is also quite high at 0.983098017043973.
+
+# Results and Discussion
+
+Based on the three models above, we can observe that the decision tree has the best prediction accuracyand outperformed random forest and logistic regression
+prediction model.
+
+As such, we can recommend the airline companies to investigate the flights that have most delays. Based on above, the companies can focus to investigate and improve flight delays from carriers that have more than 50% chance of delays. Moreover, if the Taxi In, Taxi Out, carrier delay, weather delay, NAS Delay and Security delay issues mitigated, it can reduce the number of flight delays. On another hand, the departure time and arrival time also affects the delay of flights. As
+shown in the figure below, in average the night and late-night flights that depart and arrivehave the higher number of flight delays. There may be reasons why is this the pattern such as Page 11 of 12 resource allocation issues during night shift, but, if the night flights can be avoided, it would give a better chance for the flights to not be delayed.
+
+# Conclusion
+
+In conclusion, three predictive model were successfully created using the flight data to predict whether a flight will be delayed or not. Prior to fitting the data into the models. several data cleansing steps were taken, where some of the data were omitted and transformed to maintain data quality. The three models used were the decision tree, random forest and logistic regression models. The random forest and decision tree regression model has better accuracy compared to logistic regression. Based on the model, we can identify that there were 10 features play a significant role if there will be potential delays.
